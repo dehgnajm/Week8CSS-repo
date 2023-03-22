@@ -1,7 +1,28 @@
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
+  }
 body{background-color: rgb(196, 157, 233);
+    margin: 1rem, 5rem;
 }
-h1{ color: rgb(4, 18, 16);
-}
+h1 {
+    text-align: center;
+    filter: drop-shadow( 2px 2px 1px #0f6a9e);
+    color: rgb(4, 18, 16);
+  }
+  h2 {
+    margin: 4rem auto 1rem auto;
+    text-align: center;
+  }
+
+  img {
+    max-width: 500px;
+    max-height: 600;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
+  }
+ 
 div{background-color: aquamarine;
     border-style:groove;
     border-color:rgb(237, 60, 178);
@@ -28,6 +49,15 @@ background-color: aqua;
 .hov :hover{
     background-color: beige;
 }
+.hov2 {
+    height: 50px;
+    width: 1300px;
+    background-color: #89ffff;
+}
+.hov2:hover{
+    background-color: rgb(214, 185, 209);
+}
+
 
 table {
     border-collapse: collapse;
@@ -38,10 +68,31 @@ th, td {
     text-align: left;
     border-bottom: 1px solid black;
 }
+th {
+    font-weight: bold;
+}
 tr:nth-child(even) {
 background-color: aqua;
 }
 tr :hover{
     background-color: bisque;
 }
+#specialForm {
+    font-size: 30px; 
+  }
+  
+  #specialForm input[type="text"], #specialForm input[type="email"], #specialForm input[type="submit"] {
+    font-size: 20px; 
+    padding: 10px; 
+    border: 3px solid #3a688d; 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  #specialForm input[type="submit"] {
+    background-color: #007bff; 
+    color: #fff;
+    cursor: pointer; 
+  }
+  
 
