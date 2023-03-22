@@ -1,0 +1,47 @@
+body{background-color: rgb(196, 157, 233);
+}
+h1{ color: rgb(4, 18, 16);
+}
+div{background-color: aquamarine;
+    border-style:groove;
+    border-color:rgb(237, 60, 178);
+    border-radius: 5px;
+    font-size: 16px;
+    display: list-item;
+}
+.shadow-text{
+    text-shadow: gray 1px 1px;
+}
+#large-paragraph{
+    font-size: 25px;
+}
+
+.every-even li:nth-child(even){
+    background-color: rgb(221, 221, 118);
+}
+
+.hov {
+height: 550px;
+width: 850px;
+background-color: aqua;
+}
+.hov :hover{
+    background-color: beige;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+background-color: aqua;
+}
+tr :hover{
+    background-color: bisque;
+}
+
